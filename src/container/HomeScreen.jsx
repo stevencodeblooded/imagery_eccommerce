@@ -1,3 +1,5 @@
+import BecomeSeller from "../components/Home/BecomeSeller"
+import GotQuestions from "../components/Home/GotQuestions"
 import Hero from "../components/Home/Hero"
 import LightroomPresets from "../components/Home/LightroomPresets"
 import Overview from "../components/Home/Overview"
@@ -12,6 +14,8 @@ const HomeScreen = () => {
       <TrendingPresets />
       <SpecificProducts />
       <Overview />
+      <BecomeSeller />
+      <GotQuestions />
     </>
   )
 }

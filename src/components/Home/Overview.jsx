@@ -7,7 +7,7 @@ const Overview = () => {
     <div>
       <section className="max-w-6xl mx-auto px-4 py-20">
         <div className="flex flex-col gap-12">
-          <h3 className="uppercase text-gray-500 text-sm font-semibold">Specific Products</h3>
+          <h3 className="uppercase text-gray-500 text-sm font-semibold">Overview</h3>
           
           <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3">
             <div className="flex flex-col gap-8">
