@@ -1,6 +1,10 @@
+import NeedBuying from "../components/Cart/NeedBuying"
+
 const CartScreen = () => {
   return (
-    <div>CartScreen</div>
+    <div>
+      <NeedBuying />
+    </div>
   )
 }
 

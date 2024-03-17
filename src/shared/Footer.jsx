@@ -14,7 +14,7 @@ const Footer = () => {
             </Link>
             <div className="flex flex-col gap-5 text-gray-400 font-semibold">
               <h3 className=" uppercase  ">JOIN Us</h3>
-              <p>
+              <p className=" text-sm font-normal">
                 Stay in touch and join our exclusive VIP email list.
                 Get free tutorials, special offers, product giveaways,
                 and once in a lifetime deals.

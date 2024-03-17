@@ -1,6 +1,10 @@
+import NewMember from "../components/Contact/NewMember"
+
 const AccountScreen = () => {
   return (
-    <div>AccountScreen</div>
+    <div>
+      <NewMember />
+    </div>
   )
 }
 

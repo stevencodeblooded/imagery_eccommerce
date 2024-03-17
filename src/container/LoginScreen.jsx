@@ -1,6 +1,10 @@
+import WelcomeBack from "../components/Login/WelcomeBack"
+
 const LoginScreen = () => {
   return (
-    <div>LoginScreen</div>
+    <div>
+      <WelcomeBack />
+    </div>
   )
 }
 
