@@ -9,7 +9,7 @@ const BecomeSeller = () => {
             <div className='w-full flex flex-col gap-10 md:flex-row md:justify-between'>
                 <div className='flex flex-col gap-10 md:w-1/2 '>
                     <div>
-                        <Link to={'seller'} className='capitalize py-2 px-6 rounded-3xl bg-gray-900 text-white font-semibold flex items-center gap-3 w-fit'>Become a new seller <MdOutlinePersonAddAlt className='text-xl' /></Link>
+                        <Link to={'account'} className='capitalize py-2 px-6 rounded-3xl bg-gray-900 text-white font-semibold flex items-center gap-3 w-fit'>Become a new seller <MdOutlinePersonAddAlt className='text-xl' /></Link>
                     </div>
                     <img src={laptop} alt="" />
                 </div>

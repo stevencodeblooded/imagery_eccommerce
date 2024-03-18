@@ -2,7 +2,7 @@ import NeedBuying from "../components/Cart/NeedBuying"
 
 const CartScreen = () => {
   return (
-    <div>
+    <div className="pt-20">
       <NeedBuying />
     </div>
   )

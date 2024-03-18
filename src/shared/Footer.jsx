@@ -4,6 +4,13 @@ import { FaArrowCircleUp } from "react-icons/fa"
 import { Link, NavLink } from "react-router-dom"
 
 const Footer = () => {
+  const goTop = function() {
+    window.scrollTo({
+      behavior: "smooth",
+      top: 0
+    })
+  }
+
   return (
     <div>
       <section className="max-w-6xl mx-auto px-4 py-10">
@@ -46,9 +53,9 @@ const Footer = () => {
 
           <div className="flex flex-col gap-8">
             <div className="flex  justify-between">
-              <NavLink to={'presets'} className={({isActive}) => isActive ? 'underline font-semibold text-lg' : ' font-semibold text-lg hover:underline'}>Presets</NavLink>
-              <NavLink to={'account'} className={({isActive}) => isActive ? 'underline font-semibold text-lg' : ' font-semibold text-lg hover:underline'}>Account</NavLink>
-              <button type="button" className="font-semibold hover:underline text-lg flex items-center gap-2">Up <FaArrowCircleUp /></button>
+              <NavLink to={'presets'} onClick={goTop} className={({isActive}) => isActive ? 'border-2 px-2 font-semibold text-lg transition-all focus:outline-none border-dashed border-black' : 'hover:border-black border-dashed border-2 px-2 font-semibold text-lg'}>Presets</NavLink>
+              <NavLink to={'account'} onClick={goTop} className={({isActive}) => isActive ? 'border-2 px-2 font-semibold text-lg transition-all focus:outline-none border-dashed border-black' : ' hover:border-black border-dashed border-2 px-2 font-semibold text-lg'}>Account</NavLink>
+              <button type="button" onClick={goTop} className="font-semibold text-lg flex items-center gap-2 border-2 px-2 hover:border-black focus:outline-none transition-all border-dashed">Go Up <FaArrowCircleUp /></button>
             </div>
             <div className="text-gray-400 flex flex-col gap-5">
               <h3  className="uppercase font-semibold">POLICIES</h3>

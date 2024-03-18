@@ -8,7 +8,7 @@ import TrendingPresets from "../components/Home/TrendingPresets"
 
 const HomeScreen = () => {
   return (
-    <>
+    <div className="py-24">
       <Hero />
       <LightroomPresets />
       <TrendingPresets />
@@ -16,7 +16,7 @@ const HomeScreen = () => {
       <Overview />
       <BecomeSeller />
       <GotQuestions />
-    </>
+    </div>
   )
 }
 

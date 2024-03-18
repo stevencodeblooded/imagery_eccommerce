@@ -7,11 +7,11 @@ const Navbar = () => {
     const [showMobileLinks, setShowMobileLinks] = useState(false);
     
   return (
-    <div className="bg-gray-300">
-        <section className=" max-w-6xl mx-auto p-4 py-8">
+    <div className="bg-gray-300 fixed top-0 left-0 w-full z-40">
+        <section className=" max-w-6xl mx-auto px-4 py-8">
             <nav className="flex items-center justify-between ">
                 <Link to={'/'}>
-                    <h2 className=" text-xl font-bold sm:text-2xl">The Imagery.</h2>
+                    <h2 className=" text-xl font-bold sm:text-2xl" onClick={() => setShowMobileLinks(false)}>The Imagery.</h2>
                 </Link>
 
                 <div className="block fixed right-4 top-8 sm:hidden">
@@ -33,23 +33,23 @@ const Navbar = () => {
                 </ul>
 
             </nav>
-                {/* {
+                {
                     showMobileLinks && (
-                        <ul className="flex flex-col bg-red-300 min-h-screen justify-between items-center">
+                        <ul className="flex flex-col w-full items-center gap-10 py-12 sm:hidden">
                             <li>
-                                <NavLink to={'presets'} className={({isActive}) => isActive ? 'bg-gray-900 text-white py-2 px-8 rounded-3xl font-semibold ' : 'text-gray-900 bg-white text-base rounded-3xl py-2 px-8 font-semibold'}>Presets</NavLink>
+                                <NavLink to={'presets'} onClick={() => setShowMobileLinks(false)} className={({isActive}) => isActive ? 'bg-gray-900 text-white py-2 px-8 rounded-3xl font-semibold ' : 'text-gray-900 bg-white text-base rounded-3xl py-2 px-8 font-semibold'}>Presets</NavLink>
                             </li>
                             <li>
-                                <NavLink to={'account'} className={({isActive}) => isActive ? 'bg-gray-900 text-white py-2 px-8 rounded-3xl font-semibold ' : 'text-gray-900 bg-white text-base rounded-3xl py-2 px-8 font-semibold'}>Account</NavLink>
+                                <NavLink to={'account'} onClick={() => setShowMobileLinks(false)} className={({isActive}) => isActive ? 'bg-gray-900 text-white py-2 px-8 rounded-3xl font-semibold ' : 'text-gray-900 bg-white text-base rounded-3xl py-2 px-8 font-semibold'}>Account</NavLink>
                             </li>
-                            <li className="ml-14">
-                                <Link to={'cart'}> 
-                                    <FontAwesomeIcon icon={faCartShopping} />
-                                </Link>
+                            <li>
+                                <NavLink to={'cart'} onClick={() => setShowMobileLinks(false)} className={({isActive}) => isActive ? "text-3xl text-gray-900" : "text-3xl text-white"}> 
+                                    <FontAwesomeIcon icon={faCartShopping}  />
+                                </NavLink>
                             </li>
                         </ul>
                     )
-                } */}
+                }
         </section>
     </div>
   )

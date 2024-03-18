@@ -21,7 +21,7 @@ const SingleProductScreen = () => {
   }, [])
   
   return (
-    <div>
+    <div className="py-8">
       <HeaderCarousel props={singleProduct} />
       <PresetDescription props={singleProduct} />
       <PresetReviews />

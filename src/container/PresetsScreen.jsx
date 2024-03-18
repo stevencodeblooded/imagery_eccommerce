@@ -5,7 +5,7 @@ import SearchPresetHeader from "../components/Presets/SearchPresetHeader"
 const PresetsScreen = () => {
   return (
     <div>
-      <section className="max-w-6xl mx-auto p-4">
+      <section className="max-w-6xl mx-auto px-4 py-20">
         <SearchPresetHeader />
         <FilterPresets />
         <DisplayPresets />

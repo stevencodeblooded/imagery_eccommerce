@@ -2,7 +2,7 @@ import WelcomeBack from "../components/Login/WelcomeBack"
 
 const LoginScreen = () => {
   return (
-    <div>
+    <div className="py-20">
       <WelcomeBack />
     </div>
   )

@@ -2,7 +2,7 @@ import NewMember from "../components/Contact/NewMember"
 
 const AccountScreen = () => {
   return (
-    <div>
+    <div className="pt-20">
       <NewMember />
     </div>
   )
