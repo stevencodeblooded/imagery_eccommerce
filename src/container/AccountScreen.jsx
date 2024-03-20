@@ -1,4 +1,4 @@
-import NewMember from "../components/Contact/NewMember"
+import NewMember from "../components/Account/NewMember"
 
 const AccountScreen = () => {
   return (

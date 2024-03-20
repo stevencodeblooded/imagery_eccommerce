@@ -12,7 +12,7 @@ const WelcomeBack = () => {
                     <input type="text" name="username" placeholder="Username" className=" border-b-2 border-b-gray-300 p-2 focus:outline-dashed font-semibold"  />
                     <input type="password" name="password" placeholder="Password" className=" border-b-2 border-b-gray-300 p-2 focus:outline-dashed font-semibold" />
                     <div className="flex flex-col gap-3 mt-7">
-                        <button className='capitalize py-2 px-8 rounded-3xl bg-gray-900 text-white font-semibold flex items-center gap-3 w-fit'>Login In<FontAwesomeIcon icon={faUserCheck} className='text-xl' /></button>
+                        <button className='capitalize py-2 px-8 rounded-3xl bg-gray-900 text-white font-semibold flex items-center gap-3 w-fit'>Log In<FontAwesomeIcon icon={faUserCheck} className='text-xl' /></button>
                         <div className="flex items-center gap-2">
                             <Link to={'/account'} className='capitalize py-2 px-8 rounded-3xl bg-white text-gray-900 border-gray-900 border-2 font-semibold flex items-center gap-3 w-fit'>Sign Up <FontAwesomeIcon icon={faUserPlus} className='text-xl' /></Link>
                             <p className="font-semibold text-sm text-gray-400">if you don't have an account<br />become a member </p>
