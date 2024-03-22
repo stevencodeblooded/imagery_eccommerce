@@ -11,11 +11,11 @@ const DisplayPresets = () => {
                         <input type="checkbox" name="best-sellers" id="best-sellers" value='best-sellers' />
                         <label htmlFor="best-sellers" className="text-sm sm:text-base">Best Sellers</label>
                     </div>
-                    <div className="flex gap-2  items-center">
+                    <div className="flex gap-1 sm:gap-2 items-center">
                         <input type="checkbox" name="new-releases" id="new-releases" value="new-releases" />
                         <label htmlFor="new-releases" className="text-sm sm:text-base">New Releases</label>
                     </div>
-                    <div className="flex gap-2  items-center">
+                    <div className="flex gap-1 sm:gap-2 items-center">
                         <input type="checkbox" name="trending" id="trending" value="trending" />
                         <label htmlFor="trending"  className="text-sm sm:text-base">Trending</label>
                     </div>
