@@ -52,10 +52,10 @@ const HeaderCarousel = ({props}) => {
             <div className="absolute inset-0 bg-black opacity-50 z-10 rounded-2xl h-full w-full"></div>
 
             <div className="absolute flex flex-col justify-between h-full p-4 z-20 text-white">
-                  <div className="flex items-center gap-3">
-                    <p className="border border-white font-semibold rounded-full py-1 px-4">Bestsellers</p>
-                    <p className="border border-white font-semibold rounded-full py-1 px-4">Trending </p>
-                    <p className="border border-white font-semibold rounded-full py-1 px-4">Film Collection</p>
+                  <div className="flex items-center gap-3 ">
+                    <p className="border border-white font-semibold rounded-full py-1 px-4 text-xs ">Bestsellers</p>
+                    <p className="border border-white font-semibold rounded-full py-1 px-4 text-xs ">Trending </p>
+                    <p className="border border-white font-semibold rounded-full py-1 px-4 text-xs sm:text-bas">Film Collection</p>
                   </div>
                   <div>
                     <h2 className="text-4xl font-extrabold uppercase mb-2 md:text-5xl w-full md:w-3/4">{props?.title}</h2>
@@ -63,9 +63,9 @@ const HeaderCarousel = ({props}) => {
                   </div>
                   <div>
                     <p className="text-5xl font-extrabold uppercase mb-3">$ {newPrice} <span className="text-gray-400 line-through">{props?.price}</span></p>
-                    <div className="flex items-center gap-3">
-                      <Link to={'/cart'} className='capitalize py-2 border-1 px-8 rounded-3xl bg-gray-900 text-white font-semibold flex items-center gap-3 w-fit'>Add to Cart <FontAwesomeIcon icon={faCartShopping} /></Link>
-                      <button className='capitalize py-2 px-8 rounded-3xl text-gray-900 bg-white font-semibold flex items-center gap-3 w-fit'>Preview <FontAwesomeIcon icon={faMagnifyingGlass} /></button>
+                    <div className="flex items-center gap-2 sm:gap-3">
+                      <Link to={'/cart'} className='text-sm sm:text-base capitalize py-2 border-1 px-8 rounded-3xl bg-gray-900 text-white font-semibold flex items-center gap-3 w-fit'>Add to Cart <FontAwesomeIcon icon={faCartShopping} /></Link>
+                      <button className='text-sm sm:text-base capitalize py-2 px-8 rounded-3xl text-gray-900 bg-white font-semibold flex items-center gap-3 w-fit'>Preview <FontAwesomeIcon icon={faMagnifyingGlass} /></button>
                     </div>
                   </div>
             </div>
