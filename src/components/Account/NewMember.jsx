@@ -8,11 +8,11 @@ const NewMember = () => {
         <div className="flex flex-col gap-12">
             <h1 className="text-5xl uppercase font-medium">Become a new member <br /><span className=" font-extrabold">of the imagery</span></h1>
             <form>
-                <div className="w-full mb-20 md:w-1/2 lg:w-3/4 grid grid-cols-1 sm:grid-cols-2 gap-6 text-gray-500">
+                <div className="w-full mb-20 lg:w-3/4 grid grid-cols-1 sm:grid-cols-2 gap-6 text-gray-500">
                     <input type="text" name="" placeholder="Name" className=" border-b-2 border-b-gray-300 p-2 focus:outline-dashed font-semibold"  />
                     <input type="text" name="" placeholder="Surname" className=" border-b-2 border-b-gray-300 p-2 focus:outline-dashed font-semibold" />
                     <input type="email" name="" placeholder="Email" className=" border-b-2 border-b-gray-300 p-2 focus:outline-dashed font-semibold" />
-                    <input type="number" name="" placeholder="Phone" className=" border-b-2 border-b-gray-300 p-2 focus:outline-dashed font-semibold" />
+                    <input type="tel" name="" placeholder="Phone" className=" border-b-2 border-b-gray-300 p-2 focus:outline-dashed font-semibold" />
                     <select name="" id="" className=" border-b-2 border-b-gray-300 p-2 focus:outline-dashed font-semibold">
                         <option value="Select">Select</option>
                         <option value="Seller">Seller</option>

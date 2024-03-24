@@ -33,7 +33,7 @@ const SpecificProducts = () => {
                                             <p className='uppercase py-1 text-xs px-3 rounded-2xl bg-white font-semibold'>Specific</p>
                                         </div>
                                     </div>
-                                    <p className='font-bold mb-2 text-lg flex gap-2 text-white'>4.95 <sub className='text-xs font-semibold flex items-center gap-2'>(125) <p><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} className=' text-black' /></p></sub></p>
+                                    <div className='font-bold mb-2 text-lg flex gap-2 text-white'>4.95 <sub className='text-xs font-semibold flex items-center gap-2'>(125) <p><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} className=' text-black' /></p></sub></div>
                                 </div>
                                 <div className='h-1/4 text-gray-600 bg-white flex flex-col gap-2 w-full px-5 rounded-b-md '>
                                     <h3 className="text-2xl font-semibold">Late Night Drive</h3>
@@ -53,7 +53,7 @@ const SpecificProducts = () => {
                                             <p className='uppercase py-1 text-xs px-3 rounded-2xl bg-white font-semibold'>Specific</p>
                                         </div>
                                     </div>
-                                    <p className='font-bold mb-2 text-lg flex gap-2 text-white'>4.95 <sub className='text-xs font-semibold flex items-center gap-2'>(125) <p><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} className=' text-black' /></p></sub></p>
+                                    <div className='font-bold mb-2 text-lg flex gap-2 text-white'>4.95 <sub className='text-xs font-semibold flex items-center gap-2'>(125) <p><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} className=' text-black' /></p></sub></div>
                                 </div>
                                 <div className='h-1/4 bg-gray-800 text-white flex flex-col gap-2 w-full px-5 rounded-b-md '>
                                     <h3 className="text-2xl font-semibold">Late Night Drive</h3>
@@ -73,7 +73,7 @@ const SpecificProducts = () => {
                                             <p className='uppercase py-1 text-xs px-3 rounded-2xl bg-white font-semibold'>Specific</p>
                                         </div>
                                     </div>
-                                    <p className='font-bold mb-2 text-lg flex gap-2 text-white'>4.95 <sub className='text-xs font-semibold flex items-center gap-2'>(125) <p><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} className=' text-black' /></p></sub></p>
+                                    <div className='font-bold mb-2 text-lg flex gap-2 text-white'>4.95 <sub className='text-xs font-semibold flex items-center gap-2'>(125) <p><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} className=' text-black' /></p></sub></div>
                                 </div>
                                 <div className='h-1/4 text-gray-600 bg-white flex flex-col gap-2 w-full px-5 rounded-b-md '>
                                     <h3 className="text-2xl font-semibold">Lost in the World</h3>

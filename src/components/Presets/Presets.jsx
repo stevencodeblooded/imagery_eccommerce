@@ -17,7 +17,7 @@ const Presets = () => {
   return (
       <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3 md:gap-3 ">
       {presets?.map(p => (
-        <Link to={`/presets/${p.id}`}>
+        <Link key={p.id} to={`/presets/${p.id}`}>
         <div className="relative cursor-pointer h-72 rounded-3xl hover:shadow-2xl hover:shadow-blue-300 transition-all ">
             <img
                 src={p.thumbnail} 
@@ -30,7 +30,7 @@ const Presets = () => {
                 <p className="text-sm font-semibold flex items-center gap-2 text-blue-600">
                     John Doe <FontAwesomeIcon icon={faShare} />
                 </p>
-                <p className="font-bold text-lg flex text-blue-600">
+                <div className="font-bold text-lg flex text-blue-600">
                     {p.rating}{" "}
                     <sup className="text-xs font-semibold flex items-center gap-2">
                     (125){" "}
@@ -45,7 +45,7 @@ const Presets = () => {
                         />
                     </p>
                     </sup>
-                </p>
+                </div>
                 </div>
                 <div>
                 <p className="uppercase py-1 text-sm px-3 rounded-2xl bg-white text-red-600 font-semibold">

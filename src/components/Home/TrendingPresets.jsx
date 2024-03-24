@@ -23,7 +23,7 @@ const TrendingPresets = () => {
                     <p className="text-sm font-semibold flex items-center gap-2">
                         John Doe <FontAwesomeIcon icon={faShare} />
                     </p>
-                    <p className="font-bold text-lg flex">
+                    <div className="font-bold text-lg flex">
                         4.95{" "}
                         <sup className="text-xs font-semibold flex items-center gap-2">
                         (125){" "}
@@ -38,7 +38,7 @@ const TrendingPresets = () => {
                             />
                         </p>
                         </sup>
-                    </p>
+                    </div>
                     </div>
                     <div>
                     <p className="uppercase py-1 text-sm px-3 rounded-2xl bg-white font-semibold">
@@ -66,7 +66,7 @@ const TrendingPresets = () => {
                     <p className="text-sm font-semibold flex items-center gap-2">
                         John Doe <FontAwesomeIcon icon={faShare} />
                     </p>
-                    <p className="font-bold text-lg flex">
+                    <div className="font-bold text-lg flex">
                         4.95{" "}
                         <sup className="text-xs font-semibold flex items-center gap-2">
                         (125){" "}
@@ -81,7 +81,7 @@ const TrendingPresets = () => {
                             />
                         </p>
                         </sup>
-                    </p>
+                    </div>
                     </div>
                     <div>
                     <p className="uppercase py-1 text-sm px-3 rounded-2xl bg-white font-semibold">
@@ -109,7 +109,7 @@ const TrendingPresets = () => {
                     <p className="text-sm font-semibold flex items-center gap-2">
                         John Doe <FontAwesomeIcon icon={faShare} />
                     </p>
-                    <p className="font-bold text-lg flex">
+                    <div className="font-bold text-lg flex">
                         4.95{" "}
                         <sup className="text-xs font-semibold flex items-center gap-2">
                         (125){" "}
@@ -124,7 +124,7 @@ const TrendingPresets = () => {
                             />
                         </p>
                         </sup>
-                    </p>
+                    </div>
                     </div>
                     <div>
                     <p className="uppercase py-1 text-sm px-3 rounded-2xl bg-white font-semibold">
@@ -152,7 +152,7 @@ const TrendingPresets = () => {
                     <p className="text-sm font-semibold flex items-center gap-2">
                         John Doe <FontAwesomeIcon icon={faShare} />
                     </p>
-                    <p className="font-bold text-lg flex">
+                    <div className="font-bold text-lg flex">
                         4.95{" "}
                         <sup className="text-xs font-semibold flex items-center gap-2">
                         (125){" "}
@@ -167,7 +167,7 @@ const TrendingPresets = () => {
                             />
                         </p>
                         </sup>
-                    </p>
+                    </div>
                     </div>
                     <div>
                     <p className="uppercase py-1 text-sm px-3 rounded-2xl bg-white font-semibold">
@@ -195,7 +195,7 @@ const TrendingPresets = () => {
                     <p className="text-sm font-semibold flex items-center gap-2">
                         John Doe <FontAwesomeIcon icon={faShare} />
                     </p>
-                    <p className="font-bold text-lg flex">
+                    <div className="font-bold text-lg flex">
                         4.95{" "}
                         <sup className="text-xs font-semibold flex items-center gap-2">
                         (125){" "}
@@ -210,7 +210,7 @@ const TrendingPresets = () => {
                             />
                         </p>
                         </sup>
-                    </p>
+                    </div>
                     </div>
                     <div>
                     <p className="uppercase py-1 text-sm px-3 rounded-2xl bg-white font-semibold">
@@ -238,7 +238,7 @@ const TrendingPresets = () => {
                     <p className="text-sm font-semibold flex items-center gap-2">
                         John Doe <FontAwesomeIcon icon={faShare} />
                     </p>
-                    <p className="font-bold text-lg flex">
+                    <div className="font-bold text-lg flex">
                         4.95{" "}
                         <sup className="text-xs font-semibold flex items-center gap-2">
                         (125){" "}
@@ -253,7 +253,7 @@ const TrendingPresets = () => {
                             />
                         </p>
                         </sup>
-                    </p>
+                    </div>
                     </div>
                     <div>
                     <p className="uppercase py-1 text-sm px-3 rounded-2xl bg-white font-semibold">
@@ -281,7 +281,7 @@ const TrendingPresets = () => {
                     <p className="text-sm font-semibold flex items-center gap-2">
                         John Doe <FontAwesomeIcon icon={faShare} />
                     </p>
-                    <p className="font-bold text-lg flex">
+                    <div className="font-bold text-lg flex">
                         4.95{" "}
                         <sup className="text-xs font-semibold flex items-center gap-2">
                         (125){" "}
@@ -296,7 +296,7 @@ const TrendingPresets = () => {
                             />
                         </p>
                         </sup>
-                    </p>
+                    </div>
                     </div>
                     <div>
                     <p className="uppercase py-1 text-sm px-3 rounded-2xl bg-white font-semibold">
@@ -324,7 +324,7 @@ const TrendingPresets = () => {
                     <p className="text-sm font-semibold flex items-center gap-2">
                         John Doe <FontAwesomeIcon icon={faShare} />
                     </p>
-                    <p className="font-bold text-lg flex">
+                    <div className="font-bold text-lg flex">
                         4.95{" "}
                         <sup className="text-xs font-semibold flex items-center gap-2">
                         (125){" "}
@@ -339,7 +339,7 @@ const TrendingPresets = () => {
                             />
                         </p>
                         </sup>
-                    </p>
+                    </div>
                     </div>
                     <div>
                     <p className="uppercase py-1 text-sm px-3 rounded-2xl bg-white font-semibold">

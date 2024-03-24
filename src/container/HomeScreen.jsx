@@ -12,7 +12,7 @@ const HomeScreen = () => {
       <Hero />
       <LightroomPresets />
       <TrendingPresets />
-      <SpecificProducts />
+      <SpecificProducts /> 
       <Overview />
       <BecomeSeller />
       <GotQuestions />

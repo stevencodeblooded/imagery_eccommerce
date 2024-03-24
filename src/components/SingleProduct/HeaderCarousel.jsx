@@ -9,8 +9,7 @@ import { faCartShopping, faMagnifyingGlass } from "@fortawesome/free-solid-svg-i
 const HeaderCarousel = ({props}) => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const images = props?.images
-  console.log(props);
-
+  
   const discount = (props?.discountPercentage * props?.price) / 100
   const newPrice = (props?.price - discount).toFixed(2)
 

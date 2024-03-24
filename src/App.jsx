@@ -6,6 +6,10 @@ import CartScreen from '../src/container/CartScreen'
 import Layout from "./shared/Layout"
 import SingleProductScreen from '../src/container/SingleProductScreen'
 import LoginScreen from "./container/LoginScreen"
+import UserSettingsScreen from "./container/UserSettingsScreen"
+import NewProductScreen from "./container/NewProductScreen"
+import SalesAnalyticsScreen from "./container/SalesAnalyticsScreen"
+import SalesAnalyticsScreenPerProduct from "./container/SalesAnalyticsScreenPerProduct"
 
 function App() {
   const router = createBrowserRouter(
@@ -17,6 +21,10 @@ function App() {
         <Route path="account" element={<AccountScreen />} />
         <Route path="cart" element={<CartScreen />} />
         <Route path="login" element={<LoginScreen />} />
+        <Route path="user-settings" element={<UserSettingsScreen />} />
+        <Route path="new-product" element={<NewProductScreen />} />
+        <Route path="sales-analytics" element={<SalesAnalyticsScreen />} />
+        <Route path="sales-analytics/:id" element={<SalesAnalyticsScreenPerProduct />} />
       </Route>
     )
   )

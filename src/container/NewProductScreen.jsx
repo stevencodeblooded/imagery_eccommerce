@@ -1,6 +1,12 @@
+import NewProductHeader from "../components/NewProduct/NewProductHeader"
+import ProductForm from "../components/NewProduct/ProductForm"
+
 const NewProductScreen = () => {
   return (
-    <div>NewProductScreen</div>
+    <div>
+      <NewProductHeader />
+      <ProductForm />
+    </div>
   )
 }
 

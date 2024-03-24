@@ -44,7 +44,7 @@ const Overview = () => {
                 <div className="flex flex-col gap-4 text-gray-500">
                     <h2 className=" text-3xl uppercase">Create Your Signature Style</h2>
                     <ul className=" list-disc pl-6 ">
-                        <li> Oveq 200+ best-selling pqofessional Lightroom presets</li>
+                        <li> Over 200+ best-selling pqofessional Lightroom presets</li>
                         <li> Find the perfect Lightroom preset to match your unique editing style</li>
                     </ul>
                 </div>

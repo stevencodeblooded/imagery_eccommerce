@@ -1,6 +1,12 @@
+import SalesAnalyticsHeader from "../components/SalesAnalytics/SalesAnalyticsHeader"
+import ProductAnalytics from "../components/SalesAnalytics/ProductAnalytics"
+
 const SalesAnalyticsScreen = () => {
   return (
-    <div>SalesAnalyticsScreen</div>
+    <div>
+      <SalesAnalyticsHeader />
+      <ProductAnalytics />
+    </div>
   )
 }
 

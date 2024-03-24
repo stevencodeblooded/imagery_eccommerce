@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import productImage from '../../assets/product.jpg'
+import product from '../../assets/product.jpg'
 import { faShare, faStar } from '@fortawesome/free-solid-svg-icons'
 import { Link } from 'react-router-dom'
 import { TbCircleDotted } from "react-icons/tb";
@@ -18,7 +18,7 @@ const Hero = () => {
                 </div>
                 <div className='grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3'>
                     <div className='relative'>
-                        <img src={productImage} alt="" className=' rounded-3xl w-full h-full' />
+                        <img src={product} alt="" className=' rounded-3xl w-full h-full' />
                         <div className='absolute top-0 w-full h-full px-5 pt-4 flex flex-col justify-between'>
                             <div className='flex justify-between'>
                                 <div className='flex flex-col gap-2 text-white'>
@@ -44,12 +44,12 @@ const Hero = () => {
                         </div>
                     </div>
                     <div className='relative'>
-                        <img src={productImage} alt="" className=' rounded-3xl w-full h-full' />
+                        <img src={product} alt="" className=' rounded-3xl w-full h-full' />
                         <div className='absolute top-0 w-full h-full px-5 pt-4 flex flex-col justify-between'>
                             <div className='flex justify-between'>
                                 <div className='flex flex-col gap-2 text-white'>
                                     <p className='text-sm font-semibold flex items-center gap-2'>John Doe <FontAwesomeIcon icon={faShare} /></p>
-                                    <p className='font-bold text-lg flex'>4.95 <sup className='text-xs font-semibold flex items-center gap-2'>(125) <p><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} className=' text-black' /></p></sup></p>
+                                    <div className='font-bold text-lg flex'>4.95 <sup className='text-xs font-semibold flex items-center gap-2'>(125) <p><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} className=' text-black' /></p></sup></div>
                                 </div>
                                 <div>
                                     <p className='uppercase py-1 text-sm px-3 rounded-2xl bg-white font-semibold'>bestseller</p>
@@ -61,12 +61,12 @@ const Hero = () => {
                         </div>
                     </div>
                     <div className='relative'>
-                        <img src={productImage} alt="" className=' rounded-3xl w-full h-full' />
+                        <img src={product} alt="" className=' rounded-3xl w-full h-full' />
                         <div className='absolute top-0 w-full h-full px-5 pt-4 flex flex-col justify-between'>
                             <div className='flex justify-between'>
                                 <div className='flex flex-col gap-2 text-white'>
                                     <p className='text-sm font-semibold flex items-center gap-2'>John Doe <FontAwesomeIcon icon={faShare} /></p>
-                                    <p className='font-bold text-lg flex'>4.95 <sup className='text-xs font-semibold flex items-center gap-2'>(125) <p><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} className=' text-black' /></p></sup></p>
+                                    <div className='font-bold text-lg flex'>4.95 <sup className='text-xs font-semibold flex items-center gap-2'>(125) <p><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} className=' text-black' /></p></sup></div>
                                 </div>
                                 <div>
                                     <p className='uppercase py-1 text-sm px-3 rounded-2xl bg-white font-semibold'>bestseller</p>
